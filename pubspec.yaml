@@ -26,9 +26,9 @@ dev_dependencies:
     sdk: flutter
   mockito: ^5.0.0
 
-flutter:
-  plugin:
-    platforms:
-      web:
-        pluginClass: FirebaseMessagingWeb
-        fileName: firebase_messaging_web.dart
+#flutter:
+#  plugin:
+#    platforms:
+#      web:
+#        pluginClass: FirebaseMessagingWeb
+#        fileName: firebase_messaging_web.dart
