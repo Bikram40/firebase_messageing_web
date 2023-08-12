@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="311f2b9d-1e8a-4a8f-9c70-4abde1a02aae" name="Changes" comment="combine with messaging">
+    <list default="true" id="311f2b9d-1e8a-4a8f-9c70-4abde1a02aae" name="Changes" comment="firebase web messaging done">
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/firebase_messaging_web.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/firebase_messaging_web.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/firebase_msg.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/firebase_msg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +45,15 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/Users/bikrammeher/Documents/packages/firebase_messageing_web/lib",
+    "last_opened_file_path": "/Users/bikrammeher/Documents/packages/firebase_messageing_web/assets",
     "settings.editor.selected.configurable": "AndroidSdkUpdater",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/lib/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -89,7 +90,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691758012654</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="firebase web messaging done">
+      <created>1691813404612</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691813404612</updated>
+    </task>
+    <task id="LOCAL-00005" summary="firebase web messaging done">
+      <created>1691813415133</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691813415133</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +122,7 @@
     <MESSAGE value="remove web for now will implement this later" />
     <MESSAGE value="added local js for firebase messaging" />
     <MESSAGE value="combine with messaging" />
-    <option name="LAST_COMMIT_MESSAGE" value="combine with messaging" />
+    <MESSAGE value="firebase web messaging done" />
+    <option name="LAST_COMMIT_MESSAGE" value="firebase web messaging done" />
   </component>
 </project>

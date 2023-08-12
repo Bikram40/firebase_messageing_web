@@ -34,3 +34,4 @@ flutter:
         fileName: firebase_messaging_web.dart
   assets:
     - assets/firebase_msg.js
+    - assets/firebase-messaging-sw.js

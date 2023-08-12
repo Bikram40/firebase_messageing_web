@@ -50,6 +50,8 @@ class FirebaseMessagingWeb extends FirebaseMessagingPlatform {
   /// Called by PluginRegistry to register this plugin for Flutter Web
   static Future<void> registerWith(Registrar registrar) async {
     await importJsLibrary(
+      url: "./firebase-config.js",);
+    await importJsLibrary(
     url: "./assets/firebase_msg.js", flutterPluginName: "firebase_messaging_web");
     FirebaseCoreWeb.registerService('messaging');
     FirebaseMessagingPlatform.instance = FirebaseMessagingWeb();
