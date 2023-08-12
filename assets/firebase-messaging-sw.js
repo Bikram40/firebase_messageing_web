@@ -1,6 +1,7 @@
 importScripts("https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js");
 importScripts("https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js");
-importScripts("/firebase-config.js");
+const baseDir = location.pathname.replace("assets/packages/firebase_messaging_web/assets/firebase-messaging-sw.js","");
+importScripts(baseDir + 'firebase-config.js');
 
 self.addEventListener('notificationclick', function(event) {
   var tag = event.notification.tag;

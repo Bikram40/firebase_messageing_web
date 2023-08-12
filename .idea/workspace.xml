@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="311f2b9d-1e8a-4a8f-9c70-4abde1a02aae" name="Changes" comment="firebase web messaging done">
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+    <list default="true" id="311f2b9d-1e8a-4a8f-9c70-4abde1a02aae" name="Changes" comment="done in debug mode will try it on release mode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/firebase_msg.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/firebase_msg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/firebase-messaging-sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/firebase-messaging-sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/firebase_messaging_web.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/firebase_messaging_web.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691813415133</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="done in debug mode will try it on release mode">
+      <created>1691818626412</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691818626412</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +129,7 @@
     <MESSAGE value="added local js for firebase messaging" />
     <MESSAGE value="combine with messaging" />
     <MESSAGE value="firebase web messaging done" />
-    <option name="LAST_COMMIT_MESSAGE" value="firebase web messaging done" />
+    <MESSAGE value="done in debug mode will try it on release mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="done in debug mode will try it on release mode" />
   </component>
 </project>
