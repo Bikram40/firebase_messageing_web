@@ -40,7 +40,7 @@ class FirebaseMessagingWeb extends FirebaseMessagingPlatform {
       //       RemoteMessage.fromMap(utils.messagePayloadToMap(webMessagePayload));
       //   FirebaseMessagingPlatform.onMessage.add(remoteMessage);
       // });
-        await initFBMsg(config: app.options).then((value) => onMessage());
+      await initFBMsg(config: app.options).then((value) => onMessage());
       _initialized = true;
     }
 
