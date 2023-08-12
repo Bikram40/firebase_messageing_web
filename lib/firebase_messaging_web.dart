@@ -29,7 +29,7 @@ class FirebaseMessagingWeb extends FirebaseMessagingPlatform {
   /// Instance of Messaging from the web plugin
   messaging_interop.Messaging? _webMessaging;
 
-  Future<messaging_interop.Messaging> get _delegate async {
+  Future<messaging_interop.Messaging?> get _delegate async {
     _webMessaging ??=
         messaging_interop.getMessagingInstance(core_interop.app(app.name));
 
@@ -44,7 +44,7 @@ class FirebaseMessagingWeb extends FirebaseMessagingPlatform {
       _initialized = true;
     }
 
-    return _webMessaging!;
+    return _webMessaging;
   }
 
   /// Called by PluginRegistry to register this plugin for Flutter Web
@@ -70,7 +70,6 @@ class FirebaseMessagingWeb extends FirebaseMessagingPlatform {
           ),
           data: Map<String, dynamic>.from(data),
         );
-        print("sadfasd f remote messaging ... ");
         FirebaseMessagingPlatform.onMessage.add(remoteMessage);
       }
     });
@@ -94,7 +93,6 @@ class FirebaseMessagingWeb extends FirebaseMessagingPlatform {
 
   @override
   FirebaseMessagingPlatform delegateFor({required FirebaseApp app}) {
-
     return FirebaseMessagingWeb(app: app);
   }
 
@@ -118,7 +116,7 @@ class FirebaseMessagingWeb extends FirebaseMessagingPlatform {
 
   @override
   Future<void> deleteToken() async {
-    _delegate;
+    await _delegate;
 
     if (!_initialized) {
       // no-op for unsupported browsers
@@ -145,7 +143,6 @@ class FirebaseMessagingWeb extends FirebaseMessagingPlatform {
 
     this.vapidKey = vapidKey;
     // String t =  await promiseToFuture(js.getToken(vapidKey));
-    // print("todked e $t");
     // return t;
     return convertWebExceptions(
       () => promiseToFuture(js.getToken(vapidKey)),
