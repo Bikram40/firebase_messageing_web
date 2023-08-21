@@ -30,6 +30,27 @@ This modified web implementation offers enhanced functionality over the official
 
 4. **Future Enhancements**: Plans are underway to add callbacks like `onMessageOpenedApp` and methods like `getInitialMessage`.
 
+Alright, if you're guiding developers to override the dependency using the `dependency_overrides` section in their `pubspec.yaml` file, the instructions should reflect that.
+
+Here's the revised section to guide developers on using the `dependency_overrides` for your `firebase_messaging_web` plugin:
+
+---
+
+## Using this Plugin in Your Project
+
+To ensure that the enhanced version of `firebase_messaging_web` from this repository is used in your Flutter web application, you will need to override the dependency in your `pubspec.yaml` file. Add or modify the `dependency_overrides` section as follows:
+
+```yaml
+dependency_overrides:
+  firebase_messaging_web:
+    git:
+      url: https://github.com/Bikram40/firebase_messageing_web.git
+```
+
+By adding this section, the Flutter package manager (pub) will prioritize this repository's version of `firebase_messaging_web` over any other referenced version in your project.
+
+---
+
 ## Getting Started
 
 1. **Documentation**: For an introduction to Cloud Messaging Web and its setup, please refer to the [documentation](https://firebase.flutter.dev/docs/messaging/overview) on [https://firebase.flutter.dev](https://firebase.flutter.dev).
