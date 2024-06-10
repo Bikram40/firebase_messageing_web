@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="311f2b9d-1e8a-4a8f-9c70-4abde1a02aae" name="Changes" comment="readme file changed">
+    <list default="true" id="311f2b9d-1e8a-4a8f-9c70-4abde1a02aae" name="Changes" comment="readme file update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692620345228</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="readme file update">
+      <created>1692621185919</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692621185919</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +151,7 @@
     <MESSAGE value="done in debug mode will try it on release mode" />
     <MESSAGE value="bug fixed" />
     <MESSAGE value="readme file changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme file changed" />
+    <MESSAGE value="readme file update" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme file update" />
   </component>
 </project>
