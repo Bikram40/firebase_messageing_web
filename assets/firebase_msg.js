@@ -4,6 +4,7 @@ var registration;
 
 async function initFBMsg(firebaseConfig2) {
 
+
     firebaseObj = await firebase.initializeApp(firebaseConfig);
 
     let promise = new Promise(function (resolve, reject) {
