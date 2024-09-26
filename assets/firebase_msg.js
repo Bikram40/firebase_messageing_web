@@ -19,6 +19,8 @@ async function initFBMsg(firebaseConfig2) {
                 resolve(true);
 
             }).catch(error => {
+                  console.log('WEB-firebase messaging init.. catch');
+            messaging = firebaseObj.messaging();
                 reject(error);
             });
     });
